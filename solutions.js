@@ -289,20 +289,20 @@ console.log(totalUnderWhatFor(numberArray, 20));
 /*Function - checkTrueValues
 Write a function that takes an Array with any number of type Boolean values and write a for loop to call our isTrue function with each value as input and return true if all values return true from our isTrue function.*/
 
+var arr1 = [false, true, true];
 
-var boolArr = [true, false, true];
-var boolArr2 = [true, true, true];
-
-function checkTrueValues(arrayOfBools){
-  var result = true;
-  for(var i = 0; i<arrayOfBools.length; i++){
-    if(!isTrue(arrayOfBools[i])){ //! not 
+function checkTrueValue(arr){
+  var isTrueResult = true;
+  for(var i = 0; i<arr.length; i++){
+    if(!isTrue(arr[i])){ //! = not
       return false;
     }
   }
-  return result;
+  return isTrueResult;
+
 }
-console.log(checkTrueValues(boolArr));
-console.log(checkTrueValues(boolArr2));
+console.log(checkTrueValue(arr1));
+
+
 
 
