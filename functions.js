@@ -43,21 +43,46 @@ function makeCrazyLongString(string){
 }
 /*makeCrazyLongString('taco');
 Function - youGetTaco
-Write a function that takes a single String parameter called action. If the value passed into our function is eathave the function return the String value EAT TACOS.
+Write a function that takes a single String parameter called action. If the value passed into our function is eat have the function return the String value EAT TACOS.
 */
+
+function youGetTaco(action){
+  if(action === 'eat'){
+    return "EAT TACOS";
+  }else{
+    return "drink rum";
+  }
+
+}
+
+console.log(youGetTaco("eat"));
+console.log(youGetTaco("drink"));
+
+
 
 
 /*Function - isNumberGreaterThan
-Write a function that takes two variables of type Number called first and secondrespectively. Return true if the first number is greater than the second.*/
+Write a function that takes two variables of type Number called first and second respectively. Return true if the first number is greater than the second.*/
 
+
+
+/*function isNumberGreaterThan(first, second){
+  if(first > second){
+    return true;
+  }
+}
+console.log(isNumberGreaterThan(5, 6));
+console.log(isNumberGreaterThan(3,5)); */
 
 
 /*Function - isTrue
 Write a function that takes in a Boolean value named val and have the function return whether the value is true.*/
 
+
+
+
 /*Function - isFalse
 Write a function that takes in a Boolean value named val and have the function return whether the value is false.*/
-
 
 
 /*Function - isEqual
@@ -67,12 +92,13 @@ Write a function that takes two variables of type String called firstWord and se
 /*Function - isNotEqual
 Write a function that takes two variables of type String called firstWord and secondWordrespectively. Return 'AWWWWRIGHT' if the two are not equal otherwise return 'Y U MATCH!'.*/
 
-
 /*Function - doubleEquals
 Write a function that takes two variables of type Boolean called first and secondrespectively. Return true if both values are true otherwise return false.*/
 
+
 /*Function - totalOver30
 Write a function that takes three variables of type Number called first and second and third respectively. Return true if the sum of all values are greater than 30 otherwise return false.*/
+
 
 /*Function - totalUnderWhat
 Write a function that takes four variables of type Number called first and second and third and fourth respectively. Return true if the sum of first, second and third are less than fourth otherwise return false.*/
@@ -80,7 +106,6 @@ Write a function that takes four variables of type Number called first and secon
 
 /*Function - looptoNumber
 Write a function that takes in a Number value named limit and have the function write a for loop that loops the number of times of limit and console.log each number as the loop executes.*/
-
 
 
 /*Function - showEachValue
