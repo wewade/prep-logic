@@ -86,14 +86,14 @@ Write a function that takes in a Boolean value named val and have the function r
 
 
 /*Function - isEqual
-Write a function that takes two variables of type String called firstWord and secondWordrespectively. Return 'AWWWWRIGHT' if the two are equal otherwise return 'Y U NO MATCH!'.*/
+Write a function that takes two variables of type String called firstWord and secondWord respectively. Return 'AWWWWRIGHT' if the two are equal otherwise return 'Y U NO MATCH!'.*/
 
 
 /*Function - isNotEqual
-Write a function that takes two variables of type String called firstWord and secondWordrespectively. Return 'AWWWWRIGHT' if the two are not equal otherwise return 'Y U MATCH!'.*/
+Write a function that takes two variables of type String called firstWord and secondWord respectively. Return 'AWWWWRIGHT' if the two are not equal otherwise return 'Y U MATCH!'.*/
 
 /*Function - doubleEquals
-Write a function that takes two variables of type Boolean called first and secondrespectively. Return true if both values are true otherwise return false.*/
+Write a function that takes two variables of type Boolean called first and second respectively. Return true if both values are true otherwise return false.*/
 
 
 /*Function - totalOver30
@@ -113,7 +113,7 @@ Write a function that takes in a Array value named characters that has a sequenc
 
 
 /*Function - createArrayFromString
-Write a function that takes a single variable of type String called word and write a for loop that creates an Array made up of each character in word except for A. We don't want no stinking A in our Array. Note: You will need to use the Array.push() method to complete this function.*/
+Write a function that takes a single variable of type String called word and write a for loop that creates an Array made up of each character in word except for "A" or "a". We don't want no stinking "A" or "a" in our Array. Note: You will need to use the Array.push() method to complete this function.*/
 
 
 /*Function - greatSummator
